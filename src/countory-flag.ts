@@ -4,7 +4,7 @@ import type { Type } from './type'
 
 @customElement('countory-flag')
 export class MyElement extends LitElement {
-  @property({ type: String }) code: Type = 'BE'
+  @property({ type: String }) code: Type = 'JP'
 
   @property({ type: String })
   type: 'flat' | 'shiny' = 'flat'
