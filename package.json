@@ -1,6 +1,6 @@
 {
   "name": "@maaaashi/countory-flag",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "A simple web component to display a country flag",
   "type": "module",
   "types": "dist/index.d.ts",
