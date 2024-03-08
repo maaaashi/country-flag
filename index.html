@@ -8,10 +8,22 @@
     <link rel="stylesheet" href="./src/index.css" />
     <script type="module" src="/src/countory-flag.ts"></script>
   </head>
-  <body style="background-color: antiquewhite;">
-    <countory-flag></countory-flag>
-    <countory-flag type="shiny"></countory-flag>
-    <countory-flag code="TH"></countory-flag>
-    <countory-flag size=24></countory-flag>
+  <body>
+    <div class="flag">
+      <p>default</p>
+      <countory-flag></countory-flag>
+    </div>
+    <div class="flag">
+      <p>type="shiny"</p>
+      <countory-flag type="shiny"></countory-flag>
+    </div>
+    <div class="flag">
+      <p>code="US"</p>
+      <countory-flag code="US"></countory-flag>
+    </div>
+    <div class="flag">
+      <p>size=24</p>
+      <countory-flag size=24></countory-flag>
+    </div>
   </body>
 </html>
