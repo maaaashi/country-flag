@@ -1,8 +1,23 @@
 {
-  "name": "countory-flag-component",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@maaaashi/countory-flag",
+  "version": "1.0.1",
+  "description": "A simple web component to display a country flag",
   "type": "module",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maaaashi/countory-flag"
+  },
+  "bugs": {
+    "url": "https://github.com/maaaashi/countory-flag/issues"
+  },
+  "homepage": "https://github.com/maaaashi/countory-flag",
+  "author": {
+    "name": "maaaashi",
+    "email": "ooka.ms.0r7e2p3@gmail.com"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -15,6 +30,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.5.3",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.7.3"
   }
 }

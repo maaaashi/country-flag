@@ -1,4 +1,4 @@
-# Countory Flag Component
+# Countory Flag
 
 ![preview](./docs/images/preview.png)
 
@@ -12,7 +12,7 @@
 
 # Table of Contents
 
-- [Countory Flag Component](#countory-flag-component)
+- [Countory Flag](#countory-flag)
 - [Table of Contents](#table-of-contents)
 - [Usage](#usage)
 
