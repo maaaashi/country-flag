@@ -24,7 +24,7 @@ declare global {
   }
 }
 
-type Type =
+export type Type =
 | 'AD'
 | 'AE'
 | 'AF'
