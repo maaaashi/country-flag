@@ -43,13 +43,12 @@ jobs:
       - name: Deploy
         uses: actions/upload-pages-artifact@v1
         with:
-          path: dist
+          path: github-pages
   deploy:
     needs: build
     permissions:
       pages: write
       id-token: write
-    artifact_name: dist
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
