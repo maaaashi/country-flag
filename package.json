@@ -1,6 +1,6 @@
 {
   "name": "@maaaashi/countory-flag",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A simple web component to display a country flag",
   "type": "module",
   "types": "dist/index.d.ts",
@@ -17,7 +17,7 @@
     "email": "ooka.ms.0r7e2p3@gmail.com"
   },
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

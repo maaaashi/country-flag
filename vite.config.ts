@@ -11,7 +11,7 @@ export default defineConfig({
       name: "countory-flag",
       entry: "src/countory-flag.ts",
       formats: ["iife"],
-      fileName: () => "index.js",
+      fileName: () => "bundle.js",
     },
     rollupOptions: {
       output: {
