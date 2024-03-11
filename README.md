@@ -15,6 +15,8 @@
 - [Countory Flag](#countory-flag)
 - [Table of Contents](#table-of-contents)
 - [Usage](#usage)
+  - [script src](#script-src)
+  - [npm](#npm)
 
 # Usage
 
@@ -27,4 +29,27 @@
 <countory-flag code="US"></countory-flag>
 <!-- 24pxで表示 -->
 <countory-flag size=24></countory-flag>
+```
+
+## script src
+
+```html
+<head>
+  <script src="https://maaaashi.github.io/countory-flag/bundle.js"></script>
+</head>
+<body>
+  <countory-flag></countory-flag>
+</body>
+```
+
+## npm
+
+```
+$ npm install @maaaashi/countory-flag
+```
+
+```jsx
+import '@maaaashi/countory-flag'
+
+<countory-flag></countory-flag>
 ```
