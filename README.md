@@ -1,8 +1,8 @@
-# Countory Flag
+# country Flag
 
 ![preview](./docs/images/preview.png)
 
-<div align="center">Github repository containing the source code for Countory Flag Component</div>
+<div align="center">Github repository containing the source code for country Flag Component</div>
 
 <p align="center">
 
@@ -12,7 +12,7 @@
 
 # Table of Contents
 
-- [Countory Flag](#countory-flag)
+- [country Flag](#country-flag)
 - [Table of Contents](#table-of-contents)
 - [Usage](#usage)
   - [script src](#script-src)
@@ -22,34 +22,34 @@
 
 ```html
 <!-- 日本の国旗 -->
-<countory-flag></countory-flag>
+<country-flag></country-flag>
 <!-- 艶やかなデザインに -->
-<countory-flag type="shiny"></countory-flag>
+<country-flag type="shiny"></country-flag>
 <!-- アメリカの国旗 -->
-<countory-flag code="US"></countory-flag>
+<country-flag code="US"></country-flag>
 <!-- 24pxで表示 -->
-<countory-flag size=24></countory-flag>
+<country-flag size=24></country-flag>
 ```
 
 ## script src
 
 ```html
 <head>
-  <script src="https://maaaashi.github.io/countory-flag/bundle.js"></script>
+  <script src="https://maaaashi.github.io/country-flag/bundle.js"></script>
 </head>
 <body>
-  <countory-flag></countory-flag>
+  <country-flag></country-flag>
 </body>
 ```
 
 ## npm
 
 ```
-$ npm install @maaaashi/countory-flag
+$ npm install @maaaashi/country-flag
 ```
 
 ```jsx
-import '@maaaashi/countory-flag'
+import '@maaaashi/country-flag'
 
-<countory-flag></countory-flag>
+<country-flag></country-flag>
 ```

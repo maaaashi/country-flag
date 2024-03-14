@@ -8,8 +8,8 @@ export default defineConfig({
   })],
   build: {
     lib: {
-      name: "countory-flag",
-      entry: "src/countory-flag.ts",
+      name: "country-flag",
+      entry: "src/country-flag.ts",
       formats: ["iife"],
       fileName: () => "bundle.js",
     },

@@ -1,8 +1,8 @@
 import { LitElement, html } from 'lit'
 import { customElement, property } from 'lit/decorators.js'
 
-@customElement('countory-flag')
-export class CountoryFlag extends LitElement {
+@customElement('country-flag')
+export class countryFlag extends LitElement {
   @property({ type: String }) code: Type = 'JP'
 
   @property({ type: String })
@@ -20,7 +20,7 @@ export class CountoryFlag extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    'countory-flag': CountoryFlag
+    'country-flag': countryFlag
   }
 }
 

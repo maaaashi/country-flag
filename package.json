@@ -1,17 +1,17 @@
 {
-  "name": "@maaaashi/countory-flag",
-  "version": "1.0.8",
+  "name": "@maaaashi/country-flag",
+  "version": "1.0.1",
   "description": "A simple web component to display a country flag",
   "type": "module",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maaaashi/countory-flag"
+    "url": "https://github.com/maaaashi/country-flag"
   },
   "bugs": {
-    "url": "https://github.com/maaaashi/countory-flag/issues"
+    "url": "https://github.com/maaaashi/country-flag/issues"
   },
-  "homepage": "https://github.com/maaaashi/countory-flag",
+  "homepage": "https://github.com/maaaashi/country-flag",
   "author": {
     "name": "maaaashi",
     "email": "ooka.ms.0r7e2p3@gmail.com"
